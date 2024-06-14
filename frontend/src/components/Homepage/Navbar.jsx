@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import yoganaturelogo from "../images/yoganature-logo.png";
+import Login from "./Login";
+import SignUp from "./SignUp";
 
 const Navbar = () => {
+  const [isLogin, setIsLogin] = useState(true);
+
+  const toggleForm = () => {
+    setIsLogin(!isLogin);
+  };
+
   const logoStyle = {
     height: "32px",
     paddingLeft: "10px",
@@ -158,10 +166,30 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn hover:bg-green-400 hover:border-none hover:text-white">
-          Call Now
-        </a>
+      <div className="navbar-end gap-2">
+        {/* Open modal */}
+        <button
+          className="btn text-l"
+          onClick={() => document.getElementById("auth_modal").showModal()}
+        >
+          {isLogin ? "Login" : "SignUp"}
+        </button>
+        <dialog id="auth_modal" className="modal">
+          <div className="modal-box">
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
+            <h3 className="font-semibold text-lg">
+              {isLogin ? "Login" : "SignUp"}
+            </h3>
+            <div className="py-4">{isLogin ? <Login /> : <SignUp />}</div>
+            <button onClick={toggleForm} className="btn mt-2">
+              {isLogin ? "Switch to SignUp" : "Switch to Login"}
+            </button>
+          </div>
+        </dialog>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import yoganaturelogo from "../images/yoganature-logo.png";
 import footerimage from "../images/footer4image.jpg";
 const Footer = () => {
   const footerStyle = {
-    backgroundImage: `url(${footerimage})`,
+    backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${footerimage})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   };
@@ -14,10 +14,7 @@ const Footer = () => {
     height: "auto",
   };
   return (
-    <footer
-      className="footer p-10 text-[16px] text-bold text-black"
-      style={footerStyle}
-    >
+    <footer className="footer p-10 text-[16px] text-black" style={footerStyle}>
       <aside>
         <img
           src={yoganaturelogo}

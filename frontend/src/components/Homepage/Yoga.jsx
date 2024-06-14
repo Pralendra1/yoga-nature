@@ -17,7 +17,7 @@ const Yoga = () => {
     deleteSpeed: 150,
   });
   return (
-    <section className="h-full p-4 bg-green-100">
+    <section className="h-full p-4">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between py-4 lg:py-10 mx-5 md:mx-16">
           {/* text */}
@@ -28,7 +28,7 @@ const Yoga = () => {
               <Cursor className="text-2xl" />
             </h1>
 
-            <p className="max-w-[680px] mb-4 text-bold">
+            <p className="max-w-[680px] mb-4 text-l">
               Yoga is a holistic practice that nurtures the mind, body, and
               spirit, originating in ancient India. It combines physical
               postures, breath control, meditation, and ethical principles to
@@ -42,7 +42,7 @@ const Yoga = () => {
               people of all ages and fitness levels on their journey to
               self-discovery and inner transformation.
             </p>
-            <button className="btn btn-outline hover:text-purple-500 hover:bg-gray-600 hover:border-none">
+            <button className="btn btn-outline border border-purple-500 hover:bg-purple-500 hover:border-none">
               READ MORE SERVICES
             </button>
           </div>
