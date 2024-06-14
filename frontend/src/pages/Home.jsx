@@ -7,6 +7,9 @@ import Component2 from "../components/Homepage/Component2";
 import Component3 from "../components/Homepage/Component3";
 import Component4 from "../components/Homepage/Component4";
 import Component4Text from "../components/Homepage/Component4Text";
+import Component5 from "../components/Homepage/Component5";
+import Component6Text from "../components/Homepage/Component6Text";
+import Tslider from "../components/Homepage/Component6";
 const Home = () => {
   return (
     <div className="m-0 p-0">
@@ -17,6 +20,9 @@ const Home = () => {
       <Component3 /> {/* Simple Banner component */}
       <Component4Text /> {/* Service offered text component */}
       <Component4 /> {/* Hover card component */}
+      <Component5 /> {/* Call on component */}
+      <Component6Text />
+      <Tslider />
       <Footer />
     </div>
   );
