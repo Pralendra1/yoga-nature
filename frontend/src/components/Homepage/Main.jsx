@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
 import mainImg from "../images/Mainimg.jpg";
 import gif from "../images/gif.gif";
 
 const Main = () => {
   return (
     <div className="relative w-full h-auto">
-      <Navbar />
       <img src={mainImg} alt="Example" className="w-full h-auto" />
       <img
         src={gif}
