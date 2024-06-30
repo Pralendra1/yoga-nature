@@ -9,6 +9,8 @@ export default {
         heading: "#FFE6C7",
         subheading: "#454545",
         accent: "#FFF3E2",
+        mar: "#38150A",
+        offwhite: "#FAF9F6",
       },
       fontFamily: {
         custom: ["Asap", "sans-serif"], // Specify your custom font family

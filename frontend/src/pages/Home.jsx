@@ -18,7 +18,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="m-0 p-0">
+    <div className="m-0 p-0 bg-offwhite">
       <div data-aos="fade-up">
         <Main />
       </div>

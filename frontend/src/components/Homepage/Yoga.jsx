@@ -22,13 +22,15 @@ const Yoga = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between py-4 lg:py-10 mx-5 md:mx-16">
           {/* text */}
           <div className="text-center xl:text-left">
-            <span className="text-4xl uppercase">Yoga</span>
-            <h1 className="text-2xl my-2 uppercase text-purple-500">
+            <span className="text-4xl uppercase font-playfair text-mar">
+              Yoga
+            </span>
+            <h1 className="text-2xl my-2 uppercase text-subheading font-lora">
               {text}
-              <Cursor className="text-2xl" />
+              <Cursor className="text-2xl font-opensans" />
             </h1>
 
-            <p className="max-w-[680px] mb-4 text-l">
+            <p className="max-w-[680px] mb-4 text-l font-montserrat">
               Yoga is a holistic practice that nurtures the mind, body, and
               spirit, originating in ancient India. It combines physical
               postures, breath control, meditation, and ethical principles to
@@ -42,7 +44,7 @@ const Yoga = () => {
               people of all ages and fitness levels on their journey to
               self-discovery and inner transformation.
             </p>
-            <button className="btn btn-outline border border-purple-500 hover:bg-purple-500 hover:border-none">
+            <button className="btn btn-outline text-mar border border-mar hover:bg-mar hover:border-none hover:text-white font-montserrat ">
               READ MORE SERVICES
             </button>
           </div>

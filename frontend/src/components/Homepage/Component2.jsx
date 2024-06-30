@@ -24,7 +24,7 @@ const Component2 = () => {
   }
 
   return (
-    <div className="relative h-full max-w-[900px] mx-auto mb-0 xs:mb-10">
+    <div className="relative h-full max-w-[900px] mx-auto mb-0 xs:mb-10 font-montserrat">
       <img
         src={imageSrc}
         alt="Overlay"

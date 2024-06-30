@@ -65,8 +65,12 @@ const Component4 = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8 m-4 md:m-8">
       {cardData.map((card, index) => (
         <Component4Card imgSrc={card.imgSrc} key={index}>
-          <h3 className="text-l   ` md:text-lg lg:text-xl">{card.title}</h3>
-          <p className="text-sm md:text-base">{card.description}</p>
+          <h3 className="text-l md:text-lg lg:text-xl font-opensans text-accent">
+            {card.title}
+          </h3>
+          <p className="text-sm md:text-base font-montserrat text-accent">
+            {card.description}
+          </p>
         </Component4Card>
       ))}
     </div>
