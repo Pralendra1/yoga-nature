@@ -80,7 +80,7 @@ const Navbar = () => {
               onMouseEnter={() => handleMouseEnter("yoga")}
               onMouseLeave={handleMouseLeave}
             >
-              <a>Yoga</a>
+              <Link to="/yoga">Yoga</Link>
               {dropdown === "yoga" && (
                 <ul className="p-2">
                   <li>
@@ -174,7 +174,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter("yoga")}
             onMouseLeave={handleMouseLeave}
           >
-            <a>Yoga</a>
+            <Link to="/yoga">Yoga</Link>
             {dropdown === "yoga" && (
               <ul
                 className="p-2 flex bg-accent rounded-lg"
