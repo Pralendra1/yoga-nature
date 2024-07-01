@@ -1,5 +1,6 @@
 import React from "react";
 import { FaTree } from "react-icons/fa";
+import image from "../images/banner.jpg";
 
 const Component2 = () => {
   return (
