@@ -174,7 +174,7 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter("yoga")}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/yoga">Yoga</Link>
+            <Link to="/yoga/yoga">Yoga</Link>
             {dropdown === "yoga" && (
               <ul
                 className="p-2 flex bg-accent rounded-lg"
@@ -182,44 +182,44 @@ const Navbar = () => {
               >
                 <div>
                   <li>
-                    <a>Ayurveda</a>
+                    <Link to="/yoga/homeopathy">Homeopathy</Link>
                   </li>
                   <li>
-                    <a>Naturopathy</a>
+                    <Link to="/yoga/naturopathy">Naturopathy</Link>
                   </li>
                   <li>
-                    <a>Homeopathy</a>
+                    <Link to="/yoga/ayurveda">Ayurveda</Link>
                   </li>
                   <li>
-                    <a>Stress Management</a>
-                  </li>
-                </div>
-                <div>
-                  <li>
-                    <a>Asuna</a>
-                  </li>
-                  <li>
-                    <a>Pranayama</a>
-                  </li>
-                  <li>
-                    <a>Meditation</a>
-                  </li>
-                  <li>
-                    <a>Kriya</a>
+                    <Link to="/yoga/stressmanagement">Stress Management</Link>
                   </li>
                 </div>
                 <div>
                   <li>
-                    <a>Fundamentals</a>
+                    <Link to="/yoga/asuna">Asuna</Link>
                   </li>
                   <li>
-                    <a>Sacred Rituals</a>
+                    <Link to="/yoga/pranayam">Pranayam</Link>
                   </li>
                   <li>
-                    <a>Scriptures</a>
+                    <Link to="/yoga/meditation">Meditation</Link>
                   </li>
                   <li>
-                    <a>Mantras</a>
+                    <Link to="/yoga/kriya">Kriya</Link>
+                  </li>
+                </div>
+                <div>
+                  <li>
+                    <Link to="/yoga/fundamentals">Fundamentals</Link>
+                  </li>
+                  <li>
+                    <Link to="/yoga/sacredrituals">Sacred Rituals</Link>
+                  </li>
+                  <li>
+                    <Link to="/yoga/scriptures">Scriptures</Link>
+                  </li>
+                  <li>
+                    <Link to="/yoga/mantras">Mantras</Link>
                   </li>
                 </div>
               </ul>
