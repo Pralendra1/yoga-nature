@@ -1,17 +1,17 @@
 import React from "react";
 import Component1 from "../components/Yogapage/Component1.jsx";
-import img1 from "../components/images/yogaimages/1 (1).jpg";
-import img2 from "../components/images/yogaimages/1 (2).jpg";
-import img3 from "../components/images/yogaimages/1 (3).jpg";
-import img4 from "../components/images/yogaimages/1 (4).jpg";
-import img5 from "../components/images/yogaimages/1 (5).jpg";
-import img6 from "../components/images/yogaimages/1 (6).jpg";
-import img7 from "../components/images/yogaimages/1 (7).jpg";
-import img8 from "../components/images/yogaimages/1 (8).jpg";
-import img9 from "../components/images/yogaimages/1 (9).jpg";
-import img10 from "../components/images/yogaimages/1 (10).jpg";
-import img11 from "../components/images/yogaimages/1 (11).jpg";
-import img12 from "../components/images/yogaimages/1 (12).jpg";
+import img1 from "../components/images/yogaimages/11.jpg";
+import img2 from "../components/images/yogaimages/12.jpg";
+import img3 from "../components/images/yogaimages/13.jpg";
+import img4 from "../components/images/yogaimages/14.jpg";
+import img5 from "../components/images/yogaimages/15.jpg";
+import img6 from "../components/images/yogaimages/16.jpg";
+import img7 from "../components/images/yogaimages/17.jpg";
+import img8 from "../components/images/yogaimages/18.jpg";
+import img9 from "../components/images/yogaimages/19.jpg";
+import img10 from "../components/images/yogaimages/110.jpg";
+import img11 from "../components/images/yogaimages/111.jpg";
+import img12 from "../components/images/yogaimages/112.jpg";
 import { useParams } from "react-router-dom";
 
 const yogaData = {
