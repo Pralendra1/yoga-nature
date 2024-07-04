@@ -82,7 +82,7 @@ const Navbar = () => {
             >
               <Link to="/yoga/yoga">Yoga</Link>
               {dropdown === "yoga" && (
-                <ul className="p-2">
+                <ul className="p-2" style={{ position: "relative" }}>
                   <div>
                     <li>
                       <Link to="/yoga/homeopathy">Homeopathy</Link>
@@ -141,48 +141,24 @@ const Navbar = () => {
               <a>Resources</a>
               {dropdown === "resources" && (
                 <ul className="p-2">
-                  <div>
-                    <li>
-                      <Link to="/yoga/homeopathy">Homeopathy</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/naturopathy">Naturopathy</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/ayurveda">Ayurveda</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/stressmanagement">Stress Management</Link>
-                    </li>
-                  </div>
-                  <div>
-                    <li>
-                      <Link to="/yoga/asuna">Asuna</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/pranayam">Pranayam</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/meditation">Meditation</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/kriya">Kriya</Link>
-                    </li>
-                  </div>
-                  <div>
-                    <li>
-                      <Link to="/yoga/fundamentals">Fundamentals</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/sacredrituals">Sacred Rituals</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/scriptures">Scriptures</Link>
-                    </li>
-                    <li>
-                      <Link to="/yoga/mantras">Mantras</Link>
-                    </li>
-                  </div>
+                  <li>
+                    <a>Image Content</a>
+                  </li>
+                  <li>
+                    <a>Video Content</a>
+                  </li>
+                  <li>
+                    <a>Blogs</a>
+                  </li>
+                  <li>
+                    <a>News</a>
+                  </li>
+                  <li>
+                    <a>Programs</a>
+                  </li>
+                  <li>
+                    <a>Publications</a>
+                  </li>
                 </ul>
               )}
             </li>
