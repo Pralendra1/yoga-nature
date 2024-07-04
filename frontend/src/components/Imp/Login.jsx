@@ -26,7 +26,7 @@ const Login = () => {
         <FontAwesomeIcon icon={faGlobe} className="w-4 h-4 opacity-70" />
         <input type="text" className="grow" placeholder="Country" />
       </label>
-      <button className="btn">Login</button>
+      <button className="btn border border-none">Login</button>
     </div>
   );
 };
