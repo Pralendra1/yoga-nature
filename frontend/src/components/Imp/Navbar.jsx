@@ -80,45 +80,51 @@ const Navbar = () => {
               onMouseEnter={() => handleMouseEnter("yoga")}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="/yoga">Yoga</Link>
+              <Link to="/yoga/yoga">Yoga</Link>
               {dropdown === "yoga" && (
                 <ul className="p-2">
-                  <li>
-                    <a>Ayurveda</a>
-                  </li>
-                  <li>
-                    <a>Naturopathy</a>
-                  </li>
-                  <li>
-                    <a>Homeopathy</a>
-                  </li>
-                  <li>
-                    <a>Stress Management</a>
-                  </li>
-                  <li>
-                    <a>Asuna</a>
-                  </li>
-                  <li>
-                    <a>Pranayama</a>
-                  </li>
-                  <li>
-                    <a>Meditation</a>
-                  </li>
-                  <li>
-                    <a>Kriya</a>
-                  </li>
-                  <li>
-                    <a>Fundamentals</a>
-                  </li>
-                  <li>
-                    <a>Sacred Rituals</a>
-                  </li>
-                  <li>
-                    <a>Scriptures</a>
-                  </li>
-                  <li>
-                    <a>Mantras</a>
-                  </li>
+                  <div>
+                    <li>
+                      <Link to="/yoga/homeopathy">Homeopathy</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/naturopathy">Naturopathy</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/ayurveda">Ayurveda</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/stressmanagement">Stress Management</Link>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <Link to="/yoga/asuna">Asuna</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/pranayam">Pranayam</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/meditation">Meditation</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/kriya">Kriya</Link>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <Link to="/yoga/fundamentals">Fundamentals</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/sacredrituals">Sacred Rituals</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/scriptures">Scriptures</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/mantras">Mantras</Link>
+                    </li>
+                  </div>
                 </ul>
               )}
             </li>
@@ -135,24 +141,48 @@ const Navbar = () => {
               <a>Resources</a>
               {dropdown === "resources" && (
                 <ul className="p-2">
-                  <li>
-                    <a>Image Content</a>
-                  </li>
-                  <li>
-                    <a>Video Content</a>
-                  </li>
-                  <li>
-                    <a>Blogs</a>
-                  </li>
-                  <li>
-                    <a>News</a>
-                  </li>
-                  <li>
-                    <a>Programs</a>
-                  </li>
-                  <li>
-                    <a>Publications</a>
-                  </li>
+                  <div>
+                    <li>
+                      <Link to="/yoga/homeopathy">Homeopathy</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/naturopathy">Naturopathy</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/ayurveda">Ayurveda</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/stressmanagement">Stress Management</Link>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <Link to="/yoga/asuna">Asuna</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/pranayam">Pranayam</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/meditation">Meditation</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/kriya">Kriya</Link>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <Link to="/yoga/fundamentals">Fundamentals</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/sacredrituals">Sacred Rituals</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/scriptures">Scriptures</Link>
+                    </li>
+                    <li>
+                      <Link to="/yoga/mantras">Mantras</Link>
+                    </li>
+                  </div>
                 </ul>
               )}
             </li>
