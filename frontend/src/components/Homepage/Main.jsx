@@ -1,14 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import mainImg from "../images/Mainimg.jpg";
 import gif from "../images/gif.gif";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 
 const Main = () => {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setDrawerOpen(!drawerOpen);
+  };
+
   return (
-    <div className="relative w-full h-auto flex flex-col lg:flex-row">
-      <div className="drawer lg:drawer-open w-full lg:w-1/5 h-auto">
-        <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+    <div className="relative w-full h-auto flex flex-col lg:flex-row bg-offwhite">
+      <div
+        className={`drawer lg:drawer-open w-full lg:w-1/5 h-auto ${
+          drawerOpen ? "open" : ""
+        }`}
+      >
+        <input
+          id="my-drawer-2"
+          type="checkbox"
+          className="drawer-toggle"
+          checked={drawerOpen}
+          onChange={toggleDrawer}
+        />
         <div className="drawer-content flex flex-col items-center justify-center">
           {/* Page content here */}
           <label
@@ -24,19 +40,39 @@ const Main = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu bg-heading min-h-full w-80 p-4 shadow-lg">
+          <ul className="menu bg-heading min-h-full w-80 p-4">
             {/* Sidebar content here */}
-            <li>
-              <Link to="/">Sidebar Item 1</Link>
+            <li className="mt-1">
+              <Link
+                to="/"
+                className="text-l hover:bg-accent text-mar font-playfair"
+              >
+                Sidebar Item 1
+              </Link>
             </li>
-            <li>
-              <Link to="/">Sidebar Item 2</Link>
+            <li className="mt-1">
+              <Link
+                to="/"
+                className="text-l hover:bg-accent text-mar font-playfair"
+              >
+                Sidebar Item 2
+              </Link>
             </li>
-            <li>
-              <Link to="/">Sidebar Item 3</Link>
+            <li className="mt-1">
+              <Link
+                to="/"
+                className="text-l hover:bg-accent text-mar font-playfair"
+              >
+                Sidebar Item 3
+              </Link>
             </li>
-            <li>
-              <Link to="/">Sidebar Item 4</Link>
+            <li className="mt-1">
+              <Link
+                to="/"
+                className="text-l hover:bg-accent text-mar font-playfair"
+              >
+                Sidebar Item 4
+              </Link>
             </li>
           </ul>
         </div>
@@ -47,7 +83,7 @@ const Main = () => {
           alt="Example"
           className="w-full h-auto object-contain"
         />
-        <div className="absolute inset-0 bg-accent opacity-40"></div>
+        <div className="absolute inset-0 "></div>
         <img
           src={gif}
           alt=""
