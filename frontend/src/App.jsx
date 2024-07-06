@@ -5,11 +5,13 @@ import Footer from "./components/Imp/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Events from "./pages/Events.jsx";
 import Yoga from "./pages/Yoga.jsx";
+import FloatingSocialWidget from "./components/Imp/FloatingSocialWidget.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
+      <FloatingSocialWidget />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/events" element={<Events />}></Route>

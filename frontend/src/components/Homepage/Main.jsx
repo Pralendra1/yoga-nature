@@ -44,10 +44,10 @@ const Main = () => {
             {/* Sidebar content here */}
             <li className="mt-1">
               <Link
-                to="/"
+                to="/events"
                 className="text-l hover:bg-accent text-mar font-playfair"
               >
-                Sidebar Item 1
+                Events
               </Link>
             </li>
             <li className="mt-1">
@@ -55,7 +55,7 @@ const Main = () => {
                 to="/"
                 className="text-l hover:bg-accent text-mar font-playfair"
               >
-                Sidebar Item 2
+                Products
               </Link>
             </li>
             <li className="mt-1">
@@ -63,7 +63,7 @@ const Main = () => {
                 to="/"
                 className="text-l hover:bg-accent text-mar font-playfair"
               >
-                Sidebar Item 3
+                Upcoming Classes
               </Link>
             </li>
             <li className="mt-1">
@@ -71,7 +71,7 @@ const Main = () => {
                 to="/"
                 className="text-l hover:bg-accent text-mar font-playfair"
               >
-                Sidebar Item 4
+                About
               </Link>
             </li>
           </ul>

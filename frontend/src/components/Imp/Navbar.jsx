@@ -128,12 +128,7 @@ const Navbar = () => {
                 </ul>
               )}
             </li>
-            <li>
-              <a>Yoga Classes</a>
-            </li>
-            <li>
-              <Link to="/events">Events</Link>
-            </li>
+
             <li
               onMouseEnter={() => handleMouseEnter("resources")}
               onMouseLeave={handleMouseLeave}
@@ -163,10 +158,10 @@ const Navbar = () => {
               )}
             </li>
             <li>
-              <a>Products</a>
+              <a>Major Program Classes</a>
             </li>
             <li>
-              <a>Donate</a>
+              <a>Research</a>
             </li>
           </ul>
         </div>
@@ -231,12 +226,6 @@ const Navbar = () => {
               </ul>
             )}
           </li>
-          <li>
-            <a>Yoga Classes</a>
-          </li>
-          <li>
-            <Link to="/events">Events</Link>
-          </li>
           <li
             onMouseEnter={() => handleMouseEnter("resources")}
             onMouseLeave={handleMouseLeave}
@@ -275,10 +264,10 @@ const Navbar = () => {
             )}
           </li>
           <li>
-            <a>Products</a>
+            <a>Major Program Classes</a>
           </li>
           <li>
-            <a>Donate</a>
+            <a>Research</a>
           </li>
         </ul>
       </div>
