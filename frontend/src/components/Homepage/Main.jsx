@@ -1,18 +1,59 @@
 import React from "react";
 import mainImg from "../images/Mainimg.jpg";
 import gif from "../images/gif.gif";
+import { Link } from "react-router-dom";
+import { FiMenu } from "react-icons/fi";
 
 const Main = () => {
   return (
-    <div className="relative w-full h-auto">
-      <img src={mainImg} alt="Example" className="w-full h-auto" />
-      <div className="absolute inset-0 bg-accent opacity-40"></div>{" "}
-      {/* Dark overlay */}
-      <img
-        src={gif}
-        alt=""
-        className="absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none h-[150px] m-0.5 sm:h-[180px] md:m-1 lg:m-2 lg:h-[300px] md:h-[220px]" // Apply filter to remove background
-      />
+    <div className="relative w-full h-auto flex flex-col lg:flex-row">
+      <div className="drawer lg:drawer-open w-full lg:w-1/5 h-auto">
+        <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content flex flex-col items-center justify-center">
+          {/* Page content here */}
+          <label
+            htmlFor="my-drawer-2"
+            className="btn drawer-button bg-heading rounded-none border-none w-full lg:hidden z-50"
+          >
+            <FiMenu />
+          </label>
+        </div>
+        <div className="drawer-side z-50 lg:h-auto">
+          <label
+            htmlFor="my-drawer-2"
+            aria-label="close sidebar"
+            className="drawer-overlay"
+          ></label>
+          <ul className="menu bg-heading min-h-full w-80 p-4 shadow-lg">
+            {/* Sidebar content here */}
+            <li>
+              <Link to="/">Sidebar Item 1</Link>
+            </li>
+            <li>
+              <Link to="/">Sidebar Item 2</Link>
+            </li>
+            <li>
+              <Link to="/">Sidebar Item 3</Link>
+            </li>
+            <li>
+              <Link to="/">Sidebar Item 4</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="w-full lg:w-4/5 relative flex">
+        <img
+          src={mainImg}
+          alt="Example"
+          className="w-full h-auto object-contain"
+        />
+        <div className="absolute inset-0 bg-accent opacity-40"></div>
+        <img
+          src={gif}
+          alt=""
+          className="absolute top-2/3 lg:top-[340px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none h-[150px] m-0.5 sm:h-[180px] md:m-1 lg:m-2 lg:h-[320px] md:h-[300px]"
+        />
+      </div>
     </div>
   );
 };
