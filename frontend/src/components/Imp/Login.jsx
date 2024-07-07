@@ -9,7 +9,7 @@ import {
 
 const Login = () => {
   return (
-    <div className="grid gap-3 font-montserrat">
+    <div className="grid gap-3 font-montserrat bg-offwhite">
       <label className="input input-bordered flex items-center gap-2 text-sm">
         <FontAwesomeIcon icon={faEnvelope} className="w-4 h-4 opacity-70" />
         <input type="text" className="grow" placeholder="Email" />

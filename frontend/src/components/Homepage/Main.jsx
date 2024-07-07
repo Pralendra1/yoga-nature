@@ -45,7 +45,7 @@ const Main = () => {
             <li className="mt-1">
               <Link
                 to="/events"
-                className="text-l hover:bg-accent text-mar font-playfair"
+                className="text-l hover:bg-accent text-subheading font-playfair"
               >
                 Events
               </Link>
@@ -53,7 +53,7 @@ const Main = () => {
             <li className="mt-1">
               <Link
                 to="/"
-                className="text-l hover:bg-accent text-mar font-playfair"
+                className="text-l hover:bg-accent text-subheading font-playfair"
               >
                 Products
               </Link>
@@ -61,7 +61,7 @@ const Main = () => {
             <li className="mt-1">
               <Link
                 to="/"
-                className="text-l hover:bg-accent text-mar font-playfair"
+                className="text-l hover:bg-accent text-subheading font-playfair"
               >
                 Upcoming Classes
               </Link>
@@ -69,7 +69,7 @@ const Main = () => {
             <li className="mt-1">
               <Link
                 to="/"
-                className="text-l hover:bg-accent text-mar font-playfair"
+                className="text-l hover:bg-accent text-subheading font-playfair"
               >
                 About
               </Link>

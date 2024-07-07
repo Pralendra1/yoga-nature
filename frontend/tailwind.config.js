@@ -12,6 +12,7 @@ export default {
         mar: "#38150A",
         offwhite: "#FAF9F6",
       },
+
       fontFamily: {
         custom: ["Asap", "sans-serif"], // Specify your custom font family
         playfair: ["Playfair Display", "serif"],
