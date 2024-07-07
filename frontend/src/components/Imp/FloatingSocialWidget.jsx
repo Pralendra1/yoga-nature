@@ -9,7 +9,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const FloatingSocialWidget = () => {
   return (
-    <div className="fixed top-40 right-2 pb-2 bg-heading rounded-xl bg-opacity-70 flex flex-col space-y-2 z-50">
+    <div className="fixed top-40 right-2 pb-2 bg-black bg-opacity-20 rounded-xl flex flex-col space-y-2 z-50">
       <a
         href="https://www.facebook.com/theyoganature"
         target="_blank"
