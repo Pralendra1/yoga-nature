@@ -14,7 +14,7 @@ const FloatingSocialWidget = () => {
         href="https://www.facebook.com/theyoganature"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-offwhite bg-opacity-80 p-2 rounded-2xl m-2 flex justify-center items-center"
+        className="bg-offwhite bg-opacity-80 p-2 rounded-2xl m-2 mb-0 flex justify-center items-center"
       >
         <FaFacebook className="text-xl text-subheading" />
       </a>

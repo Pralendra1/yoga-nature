@@ -24,7 +24,7 @@ const Component1 = () => {
           One can live Optimal Healthy Life!.. That’s the Beginning of the First
           Chapter of Your Book of Life!!!
         </h1>
-        <div>
+        <div className="mb-4">
           <div className="m-2 text-l flex font-opensans">
             <FaCheck className="m-1 text-mar" />
             <h1 className="ml-2">Expert Instructors</h1>
@@ -42,7 +42,7 @@ const Component1 = () => {
             <h1 className="ml-2">Flexible Scheduling and 24/7 Support</h1>
           </div>
         </div>
-        <button className="btn btn-outline text-mar border border-mar hover:bg-mar hover:border-none hover:text-white font-montserrat text-sm ml-3">
+        <button className="btn btn-outline text-mar border border-mar hover:bg-mar hover:border-none hover:text-white font-montserrat ml-2 text-xs">
           Learn More About Us
         </button>
       </div>

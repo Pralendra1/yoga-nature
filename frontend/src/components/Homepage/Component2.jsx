@@ -31,7 +31,9 @@ const Component2 = () => {
         className="w-full h-auto object-cover"
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-5 text-white text-center italic">
-        <h1 className="text-l md:text-xl lg:text-2xl p-6">"{data[index]}"</h1>
+        <h1 className="text-xs sm:text-l md:text-xl lg:text-2xl p-6">
+          "{data[index]}"
+        </h1>
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex justify-center space-x-4 p-4">
         <button

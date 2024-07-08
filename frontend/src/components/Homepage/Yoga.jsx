@@ -44,7 +44,7 @@ const Yoga = () => {
               people of all ages and fitness levels on their journey to
               self-discovery and inner transformation.
             </p>
-            <button className="btn btn-outline text-mar border border-mar hover:bg-mar hover:border-none hover:text-white font-montserrat ">
+            <button className="btn btn-outline text-mar border border-mar hover:bg-mar hover:border-none hover:text-white font-montserrat text-xs">
               READ MORE SERVICES
             </button>
           </div>
